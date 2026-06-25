@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 487.43 606.25">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4568cc;
+      }
+
+      .cls-2 {
+        fill: #a0dbd1;
+      }
+
+      .cls-3 {
+        fill: #71c182;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #a0dbd1;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-5 {
+        fill: #2c3240;
+      }
+
+      .cls-6 {
+        fill: #1a5450;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-5" d="M170.28,490h0v116.25H54.03c0-64.16,52.09-116.25,116.25-116.25Z" transform="translate(-435.97 660.28) rotate(-90)"/>
+      <circle class="cls-2" cx="233.83" cy="548.13" r="26.12"/>
+      <path class="cls-2" d="M96.47,349.59h0v96.47H0C0,392.82,43.23,349.59,96.47,349.59Z"/>
+      <path class="cls-3" d="M133.01,320.89h157.88v157.88h0c-87.14,0-157.88-70.74-157.88-157.88h0Z"/>
+      <path class="cls-5" d="M276.72,67.69h0v116.25h-116.25c0-64.16,52.09-116.25,116.25-116.25Z"/>
+      <circle class="cls-2" cx="238.36" cy="246.95" r="26.12"/>
+      <path class="cls-4" d="M391.94,1.5h0v96.47h-96.47c0-53.24,43.23-96.47,96.47-96.47Z" transform="translate(393.44 -293.97) rotate(90)"/>
+      <path class="cls-1" d="M295.47,125.81h157.88v157.88h0c-87.14,0-157.88-70.74-157.88-157.88h0Z" transform="translate(579.17 -169.66) rotate(90)"/>
+      <path class="cls-6" d="M141.71,15.44h0v116.25H25.46c0-64.16,52.09-116.25,116.25-116.25Z" transform="translate(157.15 -10.02) rotate(90)"/>
+      <circle class="cls-2" cx="160.46" cy="49.73" r="26.12"/>
+      <path class="cls-4" d="M160.46,204.76h0v113.02H47.44c0-62.38,50.64-113.02,113.02-113.02Z" transform="translate(207.91 522.53) rotate(-180)"/>
+      <path class="cls-6" d="M487.43,417h0v113.02h-113.02c0-62.38,50.64-113.02,113.02-113.02Z" transform="translate(861.85 947.03) rotate(-180)"/>
+      <circle class="cls-2" cx="384.1" cy="350.35" r="32.57"/>
+    </g>
+  </g>
+</svg>

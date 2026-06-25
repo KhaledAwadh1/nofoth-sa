@@ -1,0 +1,748 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="نفوذ - شركة متخصصة في إدارة الفعاليات والمعارض والمؤتمرات بطريقة مبتكرة"
+    />
+    <title>نفوذ | Nofoth</title>
+    <link rel="stylesheet" href="./assets/css/main.css?v=1.8" />
+    <link rel="shortcut icon" href="./public/icon.svg" />
+    <script>
+      // Mark JS-enabled before paint so reveal styles can hide elements
+      // without causing a flash of unstyled content for non-JS users.
+      (function () {
+        var d = document.documentElement;
+        d.classList.add("js");
+        try {
+          if (
+            window.matchMedia &&
+            window.matchMedia("(prefers-reduced-motion: reduce)").matches
+          ) {
+            d.classList.add("reduce-motion");
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+
+  <body>
+    <!-- ====================== Header ====================== -->
+    <header class="site-header" id="siteHeader">
+      <nav class="nav container" aria-label="التنقل الرئيسي">
+        <a href="#hero" class="brand" aria-label="نفوذ - الصفحة الرئيسية">
+          <img
+            src="./public/logo.svg"
+            alt="شعار نفوذ"
+            class="brand-logo"
+            width="120"
+            height="40"
+          />
+        </a>
+
+        <ul class="nav-list" id="navList">
+          <li><a href="#hero" class="nav-link is-active">الرئيسية</a></li>
+          <li><a href="#about" class="nav-link">عن نفوذ</a></li>
+          <li><a href="#stats" class="nav-link">نفوذ في أرقام</a></li>
+          <li><a href="#why" class="nav-link">قيم نعمل بها</a></li>
+          <li><a href="#services" class="nav-link">خدمات نفوذ</a></li>
+          <li><a href="#works" class="nav-link">إبداعات نفوذ</a></li>
+          <li><a href="#clients" class="nav-link">شُركاء النجاح</a></li>
+          <li><a href="#contact" class="nav-link">تواصل معنا</a></li>
+        </ul>
+
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="فتح القائمة"
+          aria-expanded="false"
+          aria-controls="navList"
+          type="button"
+        >
+          <span class="bar" aria-hidden="true"></span>
+        </button>
+      </nav>
+    </header>
+
+    <!-- ====================== Hero ====================== -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-brand-display">
+            <img
+              src="./public/text.svg"
+              class="hero-brand-logo"
+              alt="Nofoth Text"
+            />
+            <img
+              src="./public/icon.svg"
+              class="hero-brand-icon"
+              alt="Nofoth Icon"
+            />
+          </div>
+          <h1 class="hero-title">
+            <span class="hero-title-main">نحو أثرٍ يبقى</span>
+            <span class="hero-title-accent">وتجارب تُروى</span>
+          </h1>
+          <a
+            href="https://wa.me/966591014075"
+            target="_blank"
+            rel="noopener"
+            class="btn-hero"
+          >
+            <img
+              src="./public/imgs/shared/cta.svg"
+              alt="تواصل معنا"
+              class="btn-hero-img"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================== About ====================== -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-header-wrap">
+          <span class="section-tag section-tag--green"
+            >عــــن نفــــــــوذ</span
+          >
+        </div>
+        <div class="about-text">
+          <!-- <img src="./public/imgs/about/paragraph.svg" alt="في نفوذ، نؤمن بأن كل علامة تجارية تستحق أن تُقدَّم باحترافية وتميّز. نفهم الأهداف بعمق، ونحوّلها إلى تجارب متكاملة تجمع بين الابتكار والإتقان، نعمل بشفافية وتعاون لبناء الثقة وتحقيق النتائج بكفاءة، ونصنع أثرًا ممتدًا يعكس قيمة العمل ويعزز حضور العلامة التجارية." class="about-paragraph-img" loading="lazy" /> -->
+          <p>
+            <strong
+              >في نفوذ، نؤمن بأن كل علامة تجارية تستحق أن تُقدَّم باحترافية
+              وتميّز</strong
+            >
+            نفهم الأهداف بعمق، ونحوّلها إلى تجارب متكاملة تجمع بين الابتكار
+            والإتقان، نعمل بشفافية وتعاون لبناء الثقة وتحقيق النتائج بكفاءة
+            <strong
+              >ونصنع أثرًا ممتدًا يعكس قيمة العمل ويعزز حضور العلامة
+              التجارية</strong
+            >
+          </p>
+        </div>
+
+        <div class="about-cards-wrapper">
+          <img
+            src="./public/imgs/about/about-shapes.svg"
+            alt="رؤيتنا ومهمتنا وتطلعاتنا"
+            class="about-shapes-img"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================== Stats ====================== -->
+    <section class="section stats" id="stats">
+      <div class="container">
+        <div class="section-header-wrap">
+          <span class="section-tag section-tag--blue">نفوذ في أرقام</span>
+        </div>
+
+        <div class="stats-grid">
+          <article class="stat-card">
+            <div class="stat-icon" aria-hidden="true">
+              <img src="./assets/imgs/icons/HugeiconsBriefcase01.svg" alt="" />
+            </div>
+            <div class="stat-number">
+              <span class="stat-value" data-count-to="521" data-count-suffix="+"
+                >521+</span
+              >
+            </div>
+            <p class="stat-label">يوم عمل</p>
+          </article>
+
+          <article class="stat-card">
+            <div class="stat-icon" aria-hidden="true">
+              <img
+                src="./assets/imgs/icons/HugeiconsUserMultiple02.svg"
+                alt=""
+              />
+            </div>
+            <div class="stat-number">
+              <span
+                class="stat-value"
+                data-count-to="10000"
+                data-count-suffix="+"
+                >10,000+</span
+              >
+            </div>
+            <p class="stat-label">زائر</p>
+          </article>
+
+          <article class="stat-card">
+            <div class="stat-icon" aria-hidden="true">
+              <img src="./assets/imgs/icons/HugeiconsMedal01.svg" alt="" />
+            </div>
+            <div class="stat-number">
+              <span class="stat-value" data-count-to="5" data-count-suffix="+"
+                >5+</span
+              >
+            </div>
+            <p class="stat-label">سنوات خبرة</p>
+          </article>
+
+          <article class="stat-card">
+            <div class="stat-icon" aria-hidden="true">
+              <img src="./assets/imgs/icons/HugeiconsAgreement01.svg" alt="" />
+            </div>
+            <div class="stat-number">
+              <span class="stat-value" data-count-to="35" data-count-suffix="+"
+                >35+</span
+              >
+            </div>
+            <p class="stat-label">شريك نجاح</p>
+          </article>
+
+          <article class="stat-card">
+            <div class="stat-icon" aria-hidden="true">
+              <img
+                src="./assets/imgs/icons/HugeiconsCalendarFavorite02.svg"
+                alt=""
+              />
+            </div>
+            <div class="stat-number">
+              <span class="stat-value" data-count-to="57" data-count-suffix="+"
+                >57+</span
+              >
+            </div>
+            <p class="stat-label">حدث لا يُنسى</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================== Why Us ====================== -->
+    <section class="section why" id="why">
+      <div class="container">
+        <div class="section-header-wrap">
+          <span class="section-tag section-tag--green">قيم نعمل بهــــا</span>
+        </div>
+        <div class="why-grid">
+          <article class="why-card">
+            <div class="why-icon" aria-hidden="true">
+              <img src="./assets/imgs/icons/HugeiconsAward02.svg" alt="" />
+            </div>
+            <div class="why-card-content">
+              <h3>التميـــــز</h3>
+              <p>
+                نسعى لتجاوز التوقعات وتحقيق نتائج استثنائية تعكس جودة أعمالنا.
+              </p>
+            </div>
+          </article>
+
+          <article class="why-card">
+            <div class="why-icon" aria-hidden="true">
+              <img src="./assets/imgs/icons/HugeiconsUserGroup03.svg" alt="" />
+            </div>
+            <div class="why-card-content">
+              <h3>الشـــمولية</h3>
+              <p>
+                نعتمد منهجية متكاملة تضمن تكامل الأعمال وتحقيق تطلعات شركائنا.
+              </p>
+            </div>
+          </article>
+
+          <article class="why-card">
+            <div class="why-icon" aria-hidden="true">
+              <img
+                src="./assets/imgs/icons/HugeiconsSecurityCheck.svg"
+                alt=""
+              />
+            </div>
+            <div class="why-card-content">
+              <h3>الشفافية</h3>
+              <p>نلتزم بأعلى معايير الشفافية والمصداقية في جميع تعاملاتنا.</p>
+            </div>
+          </article>
+
+          <article class="why-card">
+            <div class="why-icon" aria-hidden="true">
+              <img src="./assets/imgs/icons/HugeiconsIdea01.svg" alt="" />
+            </div>
+            <div class="why-card-content">
+              <h3>الابتكار</h3>
+              <p>
+                نقود النمو ونتبنى أفكارًا جديدة وحلولًا مبتكرة لتطوير خدماتنا
+                باستمرار.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================== Services ====================== -->
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-header-wrap">
+          <span class="section-tag section-tag--blue">خدمـات نفــــوذ</span>
+        </div>
+
+        <h3 class="services-group-title">
+          خدمات <span class="highlight-word">الفعاليات</span>
+        </h3>
+        <div class="services-grid">
+          <article class="service-card">
+            <span class="service-badge" aria-hidden="true"
+              ><img
+                class="service-icon"
+                src="./assets/imgs/icons/HugeiconsCheckList.svg"
+                alt=""
+            /></span>
+            <h3>تقديم استشارات الفعاليات والمؤتمرات</h3>
+          </article>
+
+          <article class="service-card">
+            <span class="service-badge" aria-hidden="true"
+              ><img
+                class="service-icon"
+                src="./assets/imgs/icons/HugeiconsSpeaker01.svg"
+                alt=""
+            /></span>
+            <h3>أنظمة الشاشات والإضاءة والصوتيات</h3>
+          </article>
+
+          <article class="service-card">
+            <span class="service-badge" aria-hidden="true"
+              ><img
+                class="service-icon"
+                src="./assets/imgs/icons/HugeiconsBerlin.svg"
+                alt=""
+            /></span>
+            <h3>بناء المسارح والمعارض</h3>
+          </article>
+
+          <article class="service-card">
+            <span class="service-badge" aria-hidden="true"
+              ><img
+                class="service-icon"
+                src="./assets/imgs/icons/HugeiconsUserGroup03.svg"
+                alt=""
+            /></span>
+            <h3>أنشطة الفرق</h3>
+          </article>
+
+          <article class="service-card">
+            <span class="service-badge" aria-hidden="true"
+              ><img
+                class="service-icon"
+                src="./assets/imgs/icons/HugeiconsMic01.svg"
+                alt=""
+            /></span>
+            <h3>العروض الحية</h3>
+          </article>
+
+          <article class="service-card">
+            <span class="service-badge" aria-hidden="true"
+              ><img
+                class="service-icon"
+                src="./assets/imgs/icons/HugeiconsCursorEdit02.svg"
+                alt=""
+            /></span>
+            <h3>صناعة الهوية</h3>
+          </article>
+
+          <article class="service-card">
+            <span class="service-badge" aria-hidden="true"
+              ><img
+                class="service-icon"
+                src="./assets/imgs/icons/HugeiconsCamera01.svg"
+                alt=""
+            /></span>
+            <h3>التغطية الإعلامية</h3>
+          </article>
+
+          <article class="service-card">
+            <span class="service-badge" aria-hidden="true"
+              ><img
+                class="service-icon"
+                src="./assets/imgs/icons/HugeiconsGameController03.svg"
+                alt=""
+            /></span>
+            <h3>الألعاب الترفيهية</h3>
+          </article>
+
+          <article class="service-card">
+            <span class="service-badge" aria-hidden="true"
+              ><img
+                class="service-icon"
+                src="./assets/imgs/icons/HugeiconsServingFood.svg"
+                alt=""
+            /></span>
+            <h3>الاستقبال والضيافة</h3>
+          </article>
+        </div>
+
+        <h3 class="services-group-title">
+          خدمات <span class="highlight-word">التسويق</span>
+        </h3>
+        <div class="services-grid services-grid--center">
+          <article class="service-card">
+            <span class="service-badge" aria-hidden="true"
+              ><img
+                class="service-icon"
+                src="./assets/imgs/icons/HugeiconsBuildingIdentity.svg"
+                alt=""
+            /></span>
+            <h3>بناء الهوية المؤسسية</h3>
+          </article>
+
+          <article class="service-card">
+            <span class="service-badge" aria-hidden="true"
+              ><img
+                class="service-icon"
+                src="./assets/imgs/icons/HugeiconsLogoDesign.svg"
+                alt=""
+            /></span>
+            <h3>تصميم الشعارات</h3>
+          </article>
+
+          <article class="service-card">
+            <span class="service-badge" aria-hidden="true"
+              ><img
+                class="service-icon"
+                src="./assets/imgs/icons/HugeiconsSocialShare.svg"
+                alt=""
+            /></span>
+            <h3>إدارة حسابات التواصل الاجتماعي</h3>
+          </article>
+
+          <article class="service-card">
+            <span class="service-badge" aria-hidden="true"
+              ><img
+                class="service-icon"
+                src="./assets/imgs/icons/HugeiconsMegaphone.svg"
+                alt=""
+            /></span>
+            <h3>إدارة الحملات التسويقية</h3>
+          </article>
+
+          <article class="service-card">
+            <span class="service-badge" aria-hidden="true"
+              ><img
+                class="service-icon"
+                src="./assets/imgs/icons/HugeiconsIdea01.svg"
+                alt=""
+            /></span>
+            <h3>كتابة المحتوى والتصاميم الإبداعية</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================== Works ====================== -->
+    <section class="section works" id="works">
+      <div class="container">
+        <div class="creations-header">
+          <img
+            src="./public/icon.svg"
+            class="creations-logo"
+            alt=""
+            aria-hidden="true"
+          />
+          <h2 class="section-title">إبداعات نفوذ</h2>
+        </div>
+
+        <div class="works-grid">
+          <button
+            type="button"
+            class="work-card"
+            data-video-id="19CIHNpDnUM"
+            data-video-title="الحفل السنوي"
+            aria-label="تشغيل فيديو: الحفل السنوي"
+          >
+            <img
+              src="./public/imgs/projects/kapsarc.jpg"
+              alt="الحفل السنوي"
+              loading="lazy"
+            />
+            <span class="work-play" aria-hidden="true">
+              <img src="./public/imgs/projects/nofoth-slice.svg" alt="" />
+            </span>
+            <div class="work-card-overlay">
+              <span class="eyebrow">كابسارك</span>
+              <h3>الحفل السنوي</h3>
+            </div>
+          </button>
+
+          <button
+            type="button"
+            class="work-card"
+            data-video-id="9O-BEtbb0vY"
+            data-video-title="فعالية SBM"
+            aria-label="تشغيل فيديو: فعالية SBM"
+          >
+            <img
+              src="./public/imgs/projects/SBM.jpg"
+              alt="فعالية SBM"
+              loading="lazy"
+            />
+            <span class="work-play" aria-hidden="true">
+              <img src="./public/imgs/projects/nofoth-slice.svg" alt="" />
+            </span>
+            <div class="work-card-overlay">
+              <span class="eyebrow">SBM</span>
+              <h3>فعالية عيد الفطر</h3>
+            </div>
+          </button>
+
+          <button
+            type="button"
+            class="work-card"
+            data-video-id="wO6QmOdCvnY"
+            data-video-title="فعالية ندوة"
+            aria-label="تشغيل فيديو: فعالية ندوة"
+          >
+            <img
+              src="./public/imgs/projects/1.jpg"
+              alt="فعالية ندوة"
+              loading="lazy"
+            />
+            <span class="work-play" aria-hidden="true">
+              <img src="./public/imgs/projects/nofoth-slice.svg" alt="" />
+            </span>
+            <div class="work-card-overlay">
+              <span class="eyebrow">أطباء الأسنان المقيمين</span>
+              <h3>فعالية ندوة 2024</h3>
+            </div>
+          </button>
+
+          <button
+            type="button"
+            class="work-card"
+            data-video-id="4ti49etzDbs"
+            data-video-title="فعالية اليوم الوطني"
+            aria-label="تشغيل فيديو: فعالية اليوم الوطني"
+          >
+            <img
+              src="./public/imgs/projects/3.jpg"
+              alt="فعالية اليوم الوطني"
+              loading="lazy"
+            />
+            <span class="work-play" aria-hidden="true">
+              <img src="./public/imgs/projects/nofoth-slice.svg" alt="" />
+            </span>
+            <div class="work-card-overlay">
+              <span class="eyebrow"
+                >مركز الملك عبدالعزيز للخيل العربية الأصيلة</span
+              >
+              <h3>فعالية اليوم الوطني</h3>
+            </div>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================== Video Modal ====================== -->
+    <div
+      class="video-modal"
+      id="videoModal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="videoModalTitle"
+      aria-hidden="true"
+    >
+      <div class="video-modal-backdrop" data-video-close></div>
+      <div class="video-modal-dialog" role="document">
+        <button
+          type="button"
+          class="video-modal-close"
+          data-video-close
+          aria-label="إغلاق الفيديو"
+        >
+          <img src="./assets/imgs/icons/close.svg" alt="" aria-hidden="true" />
+        </button>
+        <h3 id="videoModalTitle" class="visually-hidden">فيديو</h3>
+        <div class="video-modal-frame">
+          <iframe
+            id="videoModalIframe"
+            title="مشغل فيديو يوتيوب"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+              web-share;
+            "
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- ====================== Clients ====================== -->
+    <section class="section clients" id="clients">
+      <div class="container">
+        <div class="section-header-wrap">
+          <span class="section-tag section-tag--blue">شُركاء النجــــاح</span>
+        </div>
+
+        <div class="clients-logos">
+          <img
+            src="./public/imgs/clients/partners-logos.svg"
+            alt="شركاء النجاح - شعارات العملاء والشركاء"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================== Contact ====================== -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="contact-card">
+          <div class="contact-cta-side">
+            <h3 class="contact-title">
+              <span class="contact-title-main">تجربتكم مع نفـوذ</span>
+              <span class="contact-title-accent">لتطلعات بلا حدود</span>
+            </h3>
+            <a
+              href="https://wa.me/966591014075"
+              target="_blank"
+              rel="noopener"
+              class="btn-hero"
+            >
+              <img
+                src="./public/imgs/shared/cta.svg"
+                alt="تواصل معنا"
+                class="btn-hero-img"
+              />
+            </a>
+          </div>
+          <div class="contact-icon">
+            <img src="./public/icon.svg" alt="" aria-hidden="true" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================== Footer ====================== -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#hero" class="brand" aria-label="نفوذ - الصفحة الرئيسية">
+              <img
+                src="./public/logo.svg"
+                alt="شعار نفوذ"
+                class="brand-logo"
+                width="160"
+                height="56"
+              />
+            </a>
+            <p>تجربتكم مع نفوذ لتطلعات بلا حدود</p>
+            <div class="footer-socials">
+              <a
+                href="https://www.linkedin.com/company/nofoth"
+                target="_blank"
+                rel="noopener"
+                aria-label="LinkedIn"
+              >
+                <img
+                  src="./assets/imgs/icons/linkedin.svg"
+                  alt=""
+                  aria-hidden="true"
+                />
+              </a>
+              <a
+                href="https://www.instagram.com/nofoth.ksa/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Instagram - NOFOTH.KSA"
+              >
+                <img
+                  src="./assets/imgs/icons/instagram.svg"
+                  alt=""
+                  aria-hidden="true"
+                />
+              </a>
+              <a
+                href="https://x.com/nofoth_ksa"
+                target="_blank"
+                rel="noopener"
+                aria-label="X"
+              >
+                <img
+                  src="./assets/imgs/icons/x-twitter.svg"
+                  alt=""
+                  aria-hidden="true"
+                />
+              </a>
+              <a href="mailto:nofoth.info@gmail.com" aria-label="Email">
+                <img
+                  src="./assets/imgs/icons/email.svg"
+                  alt=""
+                  aria-hidden="true"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4>روابط سريعة</h4>
+            <ul>
+              <li><a href="#hero">الرئيسية</a></li>
+              <li><a href="#about">عن نفوذ</a></li>
+              <li><a href="#services">خدمات نفوذ</a></li>
+              <li><a href="#works">إبداعات نفوذ</a></li>
+              <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>تواصل معنا</h4>
+            <ul class="footer-contact">
+              <li>
+                <img
+                  src="./assets/imgs/icons/whatsapp.svg"
+                  alt=""
+                  aria-hidden="true"
+                />
+                <a
+                  href="https://wa.me/966591014075"
+                  target="_blank"
+                  rel="noopener"
+                  dir="ltr"
+                  >+966 591014075</a
+                >
+              </li>
+              <li>
+                <img
+                  src="./assets/imgs/icons/email.svg"
+                  alt=""
+                  aria-hidden="true"
+                />
+                <a href="mailto:nofoth.info@gmail.com" dir="ltr">
+                  nofoth.info@gmail.com
+                </a>
+              </li>
+              <li>
+                <img
+                  src="./assets/imgs/icons/location.svg"
+                  alt=""
+                  aria-hidden="true"
+                />
+                <span>المملكة العربية السعودية - الرياض</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <span
+            >© <span id="footerYear">2024</span> نفوذ - جميع الحقوق محفوظة</span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
